@@ -1,0 +1,257 @@
+@charset "UTF-8";
+body, ul, li, p, h1, h2, h3, h4, h5, h6 ,a{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 微软雅黑;
+}
+
+a{
+    text-decoration: none;
+    outline: 0;
+}
+
+.cont-ul li a {
+    outline: none;
+    outline: 0;
+}
+
+.main-ul li a {
+    outline: none;
+    outline: 0;
+}
+
+.ranking-right li a{
+    outline: none;
+    outline: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.wrap-bg {
+    position: relative;
+    width: 1280px;
+    height: 720px;
+    background: url('../img/bg.jpg');
+}
+/*========================!         -- 以下 home  style --   !=============*/
+.scrollDiv {
+    position: absolute;
+    width: 150px;
+    height: 275px;
+    top: 217px;
+    right: 230px;
+    overflow: hidden;
+}
+
+.pic-dance {
+    position: absolute;
+    width: 447px;
+    height: 138px;
+    top: 250px;
+    left: 272px;
+    background: url("../img/LOGO.png");
+}
+
+.cont-ul li {
+    width: 150px;
+    height: 56px;
+    font-size: 20px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.cont-ul li a {
+    display: inline-block;
+    outline: none;
+}
+.bar{
+    font-size: 18px;
+    color: #fff;
+}
+.bar-active{
+    color: #fffa7c;
+    font-size: 24px;
+}
+.liOpacity6{
+    opacity: 0.6;
+}
+.liOpacity4{
+    opacity: 0.4;
+}
+/*========================!         -- 以下 menu  style --   !===========*/
+.top-mark{
+    position: absolute;
+    width:311px;
+    height: 35px;
+    top: 10px;
+    left: 60px;
+    color: #fff;
+    font-size: 24px;
+    background: url("../img/mark.png");
+}
+.mark{
+    display: inline-block;
+    padding: 2px 0 0 100px;
+}
+.btn-return{
+    position: absolute;
+    left: 70px;
+    bottom: 40px;
+    color: #772cac;
+    font-size: 20px;
+}
+.main-ul{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+.main-ul li a{
+    display: inline-block;
+    width: 180px;
+    height: 53px;
+    line-height: 25px;
+    /*color: #fff;*/
+    /*font-size: 20px;*/
+    /*text-align: center;*/
+}
+.main-ul li span{
+    color: #6f708c;
+    font-size: 16px;
+}
+.main-span{
+    display: inline-block;
+    width: 80px;
+}
+.main-span1{
+    display: inline-block;
+    width: 80px;
+}
+.main-new{
+    position: absolute;
+    right: 350px;
+    width: 32px;
+    height: 18px;
+    margin-top: 3px;
+    /*background: url("../img/NEW.png") no-repeat;*/
+}
+.main-hot{
+    position: absolute;
+    right: 390px;
+    width: 32px;
+    height: 18px;
+    margin-top: 3px;
+    /*background: url("../img/HOT.png");*/
+}
+.main-left{
+    position: absolute;
+    width: 364px;
+    height: 264px;
+    top: 234px;
+    left: 360px;
+    background: url("../img/leftBg.png");
+}
+.main-p1,.main-p2,.main-p3,.p2span,.p3span{
+    color: #fff;
+}
+.main-p2,.main-p3{
+    font-size: 20px;
+}
+.main-p1{
+    margin: 20px 0 20px 60px;
+    font-size: 26px;
+}
+.main-p2{
+    margin: 20px 0 20px 60px;
+}
+.main-p3{
+    margin: 20px 0 20px 60px;
+}
+/*========================!         -- 以下 ranking  style --   !=================*/
+.ranking-left{
+    position: absolute;
+    width: 435px;
+    height: 542px;
+    top: 60px;
+    left: 90px;
+    padding: 0 10px 0 20px;
+    color: #fff;
+    text-align: center;
+    background: url("../img/rankingbg.png") no-repeat;
+}
+.ranking-left li {
+    width: 426px;
+    height: 50px;
+}
+
+.span-len{
+    display: inline-block;
+    width: 142px;
+    height: 50px;
+    line-height: 50px;
+}
+.rk-rk{
+    font-size: 24px;
+}
+.rk-img{
+    display: inline-block;
+    width: 31px;
+    height: 34px;
+}
+.rk-span{
+    font-size: 18px;
+}
+.colorF1d26a{
+    color: #f1d26a;
+}
+.color6bf1f7{
+    color: #6bf1f7;
+}
+.colorF861f5{
+    color: #f861f5;
+}
+.btn-challenge{
+    position: absolute;
+    width: 213px;
+    height: 72px;
+    left: 345px;
+    bottom: 37px;
+    border-radius: 10px;
+    background: url("../img/anniu1.png") no-repeat;
+    background-position-y: 2px;
+}
+.btnChallenge{
+    border: 1px solid lawngreen;
+}
+.btn-challenge img{
+    margin: 15px 0 0 65px;
+}
+.ranking-right{
+    position: absolute;
+    top: 275px;
+    right:170px;
+    text-align: center;
+}
+.ranking-right li{
+    width: 280px;
+    height: 55px;
+    color: #fff;
+    line-height: 55px;
+}
+.ranking-right li:nth-of-type(1){
+    margin-top: -10px;
+}
+
+.ranking-right li:nth-of-type(2){
+    margin-top: 10px;
+}
+.ranking-right li:nth-of-type(3){
+    margin-top: 5px;
+}

@@ -1,0 +1,126 @@
+@charset "UTF-8";
+body, ul, li, p, h1, h2, h3, h4, h5, h6 ,a{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 微软雅黑;
+}
+a{
+    text-decoration: none;
+    outline: 0;
+}
+.main-bg {
+    width: 690px;
+    height: 649px;
+    margin: 0 auto;
+    padding: 25px;
+    background: url("../img/DancePadBg.png") no-repeat;
+    background-position-y: 80px;
+}
+
+.content-left {
+    width: 290px;
+    padding: 70px 0 0 10px;
+    float: left;
+}
+
+.content-left li {
+    width: 290px;
+    height: 60px;
+    color: #fff;
+    line-height: 60px;
+}
+
+.content-left li:nth-of-type(1) {
+    text-align: center;
+    font-size: 26px;
+}
+
+.content-left li span {
+    font-size: 20px;
+}
+
+.content-left li span:nth-of-type(2) {
+    float: right;
+}
+
+.content-left li:nth-of-type(8) p, .content-left li:nth-of-type(8) p span {
+    font-size: 26px;
+    color: #ffd75f;
+}
+
+.content-left li:nth-of-type(8) p {
+    float: right;
+    margin-top: 20px;
+}
+
+.content-right {
+    width: 300px;
+    float: left;
+    margin: 90px 0 0 40px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.content-right .inputCon {
+    width: 260px;
+    height: 35px;
+    margin: 20px 0;
+    color: #fff;
+    font-size: 20px;
+    background-color: #281d5f;
+    border: none;
+}
+
+.content-right p:nth-of-type(2) a {
+    color: #faa2ff;
+    font-size: 20px;
+}
+
+.content-right p:nth-of-type(3) {
+    margin-top: 20px;
+}
+
+.btn-buy {
+    width: 202px;
+    height: 58px;
+    margin: 210px 0 0 50px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(#7f6dff, #5640fb); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#7f6dff, #5640fb); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#7f6dff, #5640fb);
+    background: linear-gradient(#7f6dff, #5640fb);
+}
+
+.content-form {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+}
+
+.form {
+    background-color: #1d1347;
+    padding: 3px;
+}
+
+.form th {
+    width: 90px;
+    height: 58px;
+    border: 2px solid #1d1347;
+    font-size: 20px;
+    background-color: #4b426f;
+}
+
+.form th a {
+    width: 90px;
+    height: 58px;
+    display: inline-block;
+    line-height: 60px;
+    color: #fff;
+}
+
+.result {
+    border: 1px solid red;
+}

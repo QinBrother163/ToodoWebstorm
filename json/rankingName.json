@@ -1,0 +1,173 @@
+[
+  {
+    "name": "悟空",
+    "drumsPath": "js/data.json",
+    "songPath":"http://172.16.147.107:1618/TuoJieGameCenter_GD/MGDaTing/DancingCs/webstorm/bgm/WK.mp3?occupied=occupied&songName=WK&singer=2PM&level=YB",
+    "results": [
+      {
+        "sort": 1,
+        "name": "玩家名字哈1",
+        "score": "666666661"
+      },
+      {
+        "sort": 2,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 3,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 4,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 5,
+        "name": "玩家名字哈1",
+        "score": "666666661"
+      },
+      {
+        "sort": 6,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 7,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 8,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 9,
+        "name": "玩家名字哈1",
+        "score": "666666661"
+      },
+      {
+        "sort": 10,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      }
+    ]
+  },
+  {
+    "name": "小苹果",
+    "drumsPath": "js/data.json",
+    "songPath":"http://172.16.147.107:1618/TuoJieGameCenter_GD/MGDaTing/DancingCs/webstorm/bgm/XPG.mp3?occupied=occupied&songName=XPG&singer=2PM&level=YB",
+    "results": [
+      {
+        "sort": 1,
+        "name": "玩家名字哈2",
+        "score": "666666662"
+      },
+      {
+        "sort": 2,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 3,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 4,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 5,
+        "name": "玩家名字哈哈",
+        "score": "666666662"
+      },
+      {
+        "sort": 6,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 7,
+        "name": "玩家名字哈2",
+        "score": "666666666"
+      },
+      {
+        "sort": 8,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 9,
+        "name": "玩家名字哈2",
+        "score": "666666666"
+      },
+      {
+        "sort": 10,
+        "name": "玩家名字哈哈",
+        "score": "666666662"
+      }
+    ]
+  },
+  {
+    "name": "光年之外",
+    "drumsPath": "js/data.json",
+    "songPath":"http://172.16.147.107:1618/TuoJieGameCenter_GD/MGDaTing/DancingCs/webstorm/bgm/GNZW.mp3?occupied=occupied&songName=GNZW&singer=2PM&level=YB",
+    "results": [
+      {
+        "sort": 1,
+        "name": "玩家名字哈3",
+        "score": "666666663"
+      },
+      {
+        "sort": 2,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 3,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 4,
+        "name": "玩家名字哈3",
+        "score": "666666666"
+      },
+      {
+        "sort": 5,
+        "name": "玩家名字哈哈",
+        "score": "666666663"
+      },
+      {
+        "sort": 6,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 7,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 8,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      },
+      {
+        "sort": 9,
+        "name": "玩家名字哈3",
+        "score": "666666663"
+      },
+      {
+        "sort": 10,
+        "name": "玩家名字哈哈",
+        "score": "666666666"
+      }
+    ]
+  }
+]

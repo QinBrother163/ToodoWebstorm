@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>电子协议</title>
+
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrap {
+            width: 800px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        .wrap span {
+            display: inline-block;
+            width: 200px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            border: 1px solid #eee;
+        }
+
+        .wrapBox {
+            width: 800px;
+            height: auto;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid #eee;
+        }
+
+        #data {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="wrap">
+    <h3>协议内容</h3>
+    <p>及的撒返还收到了减肥的</p>
+    <p>及的撒返还收到了减肥的</p>
+    <p>及的撒返还收到了减肥的</p>
+    <p>及的撒返还收到了减肥的</p>
+    <p>及的撒返还收到了减肥的</p>
+    <p>及的撒返还收到了减肥的</p>
+    <br>
+    <br>
+    <br>
+    <span>按 OK 同意</span><span>按 返回 到游戏界面</span>
+</div>
+<br>
+<div id="data" class="wrapBox">
+    <label>
+        <span>用户名称 :</span>
+        <input id="iptName" class="ipt" type="text" value=""><br>
+        <span>手机号码 :</span>
+        <input id="iptNumber" class="ipt" type="text" value="">
+    </label>
+</div>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+
+    $.getJSON("json/userInfo.json", function (data) {
+        var dataInfoS = [];
+        $.each(data, function (i, info) {
+            var name = info["name"];
+            var number = info["number"];
+            var infoS = new DataInfo(name, number);
+            dataInfoS.push(infoS);
+        });
+        var dataCanvas = new PageAgreement();
+        dataCanvas.showDataS = dataInfoS;
+        dataCanvas.start();
+    });
+
+    function DataInfo(name, number) {
+        this.name = name;
+        this.info = number;
+    }
+
+    function PageAgreement() {
+        this.showDataS = null;
+    }
+
+    PageAgreement.prototype = {
+
+        start: function () {
+            var owner = this;
+
+            this.showData();
+
+            document.onkeydown = function (e) {
+                owner.onKeyDown(e);
+            };
+        },
+        buy: function () {
+            var str = prompt("请核对您的手机号码!", "888888888");
+            if (str) {
+                alert("请确认您的号码：" + str);
+                var iptNumber = document.getElementById("iptNumber");
+                iptNumber.value = str;
+            }
+            var perform = function () {
+
+                window.location.href = "home.html";
+            };
+
+            setTimeout(perform, 1000)
+        },
+
+        donTBuy: function () {
+            window.location.href = "home.html";
+        },
+
+        onKeyDown: function (e) {
+            var owner = this;
+            e = e || event;
+            var keyCode = e.keyCode || e.which || e.charCode;
+
+            var data = document.getElementById("data");
+            switch (keyCode) {
+                case 13:
+                case 37:
+                    data.style.display = "block";
+                    setTimeout(owner.buy, 100);
+                    break;
+                case 8:
+                case 40:
+
+                    this.donTBuy();
+                    break;
+                default:
+                    break;
+            }
+        },
+
+        showData:function () {
+            var iptName = document.getElementById("iptName");
+            var iptNumber = document.getElementById("iptNumber");
+            for(var i=0;i<this.showDataS.length;i++){
+                iptName.value = this.showDataS[i].name;
+                iptNumber.value = this.showDataS[i].info;
+            }
+        }
+    };
+
+</script>
+</body>
+</html>

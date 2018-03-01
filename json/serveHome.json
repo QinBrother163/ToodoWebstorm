@@ -1,0 +1,32 @@
+[
+  {
+    "tag":"1",
+    "theme":"儿童舞曲",
+    "childDataS":"json/childDataS.json",
+    "childSong":"json/childSong.json"
+  },
+  {
+    "tag":"2",
+    "theme":"热舞",
+    "childDataS":"json/danceDataS.json",
+    "childSong":"json/danceSong.json"
+  },
+  {
+    "tag":"3",
+    "theme":"广场舞",
+    "childDataS":"json/squareDancingDataS.json",
+    "childSong":"json/squareDancingSong.json"
+  },
+  {
+    "tag":"4",
+    "theme":"经典舞曲",
+    "childDataS":"json/classicDataS.json",
+    "childSong":"json/classicSong.json"
+  },
+  {
+    "tag":"5",
+    "theme":"比赛",
+    "childDataS":"json/rankingName.json",
+    "childSong":"json/ranKingSong.json"
+  }
+]

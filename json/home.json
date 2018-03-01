@@ -1,0 +1,22 @@
+[
+  {
+    "name": "儿童",
+    "homePageUrl":"child.html?tag=1"
+  },
+  {
+    "name": "热舞",
+    "homePageUrl":"child.html?tag=2"
+  },
+  {
+    "name": "广场舞",
+    "homePageUrl":"child.html?tag=3"
+  },
+  {
+    "name": "经典舞曲",
+    "homePageUrl":"child.html?tag=4"
+  },
+  {
+    "name": "比赛",
+    "homePageUrl":"ranking.html?tag=5"
+  }
+]

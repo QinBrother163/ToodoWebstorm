@@ -1,0 +1,447 @@
+[
+  {
+    "time": 2850,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 4850,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 4850,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 5350,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 5350,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 5850,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 5850,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 6650,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 8650,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 10650,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 14650,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 15550,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 16450,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 17350,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 18250,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 19150,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 20050,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 20050,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 22150,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 24150,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 25050,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 25950,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 26850,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 27750,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 28650,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 29550,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 30450,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 31350,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 31350,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 32250,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 33150,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 34050,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 34950,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 35850,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 36800,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 37750,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 38700,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 39650,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 40600,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 41550,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 42500,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 43450,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 44400,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 45350,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 46300,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 47250,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 48200,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 49150,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 50100,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 50100,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 51050,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 52000,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 52950,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 53900,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 53900,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 55700,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 56640,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 57580,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 58520,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 59460,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 60400,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 61340,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 62280,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 63220,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 64160,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 65100,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 66040,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 66980,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 67920,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 68860,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 69800,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 70740,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 70740,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 71680,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 72620,
+    "type": 1,
+    "speed": 0.6
+  },
+  {
+    "time": 72620,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 73560,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 74500,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 75440,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 76380,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 77320,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 78260,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 79200,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 80140,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 81080,
+    "type": 0,
+    "speed": 0.6
+  },
+  {
+    "time": 82020,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 82960,
+    "type": 2,
+    "speed": 0.6
+  },
+  {
+    "time": 83900,
+    "type": 3,
+    "speed": 0.6
+  },
+  {
+    "time": 84840,
+    "type": 2,
+    "speed": 0.6
+  }
+]

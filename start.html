@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏入口</title>
+</head>
+<body>
+<p>游戏入口</p>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript">
+
+    function readJson() {
+        $.getJSON("json/start.json", function (data) {
+            var songInfos = [];
+
+            $.each(data, function (i, data) {
+                var dancePad = data["DancePad"];
+                var info = new DancePadInfo(dancePad);
+                songInfos.push(info);
+            });
+
+            var itemCanvas = new PageStart();
+            itemCanvas.DancePads = songInfos;
+            itemCanvas.start();
+
+        })
+    }
+
+    readJson();
+
+    function DancePadInfo(dancePad) {
+        this.dancePad = dancePad;
+    }
+
+    function PageStart() {
+        this.DancePads = null;
+    }
+
+    PageStart.prototype = {
+
+        start: function () {
+            for (var i = 0; i < this.DancePads.length; i++) {
+                if (this.DancePads[i].dancePad == 0) {
+                    window.location.href = "home.html";
+                } else if(this.DancePads[i].dancePad == 1){
+                    alert("系统检测到您没有购买跳舞毯，请返回购买!");
+                    window.location.href = "dancingBlanket.html";
+                }
+            }
+
+        }
+
+    };
+</script>
+</body>
+</html>
